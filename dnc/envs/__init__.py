@@ -23,7 +23,8 @@ _stochastic_params = {
 
 _deterministic_params = {
     'pick': dict(goal_args=('noisy',(.6,.2),0)),
-    'lob': dict(box_center=(0,0), box_noise=0),
+    # 'lob': dict(box_center=(0,0), box_noise=0),
+    'lob': dict(box_center=(0,-.6), box_noise=0),
     'catch': dict(start_pos=(.1,1.7), start_noise=0),
     'ant': dict(angle_range=(-1e-4,1e-4)),
 }
